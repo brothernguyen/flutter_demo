@@ -3,6 +3,7 @@ import 'package:http/http.dart' show get;
 import 'models/image_model.dart';
 import 'dart:convert';
 import 'widgets/image_list.dart';
+import 'package:flutter_flux/flutter_flux.dart';
 
 class App extends StatefulWidget {
   createState() {
